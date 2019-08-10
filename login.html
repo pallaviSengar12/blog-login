@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width-device-width,initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie-edge">
+	<title>Login</title>
+</head>
+<body>
+
+</body>
+</html>
+<body >
+<style> 
+body{
+background-image: url('Blogging.jpg');
+background-size:cover;
+color:white;
+ }
+	div.transbox {
+  margin: 150px;
+ border-radius:12px;
+  background-color:grey;
+  border: 1px solid black;
+  opacity: .9;
+   filter: alpha(opacity=0);
+  width:600px;
+height:300px;
+position:absolute;right: 20%; top:50px;
+padding-top:30px;   
+}
+button{
+	height:52px;
+	width:100px;
+	border:2px;
+	color:grey;
+	background-color:solid-black;
+		
+}
+
+button:hover{
+	color:blue;
+}	
+</style>
+
+<form name=loginform action="index.html" method="POST">
+<img src="blogger-logo.png?mw=500" width="14%" height="100"  border="0" style="position:absolute; right: 85%;top:5px; "/>
+<center>
+
+<div class="transbox";>
+
+	<div id=logininfo></div>
+	<table>		
+		<tr>
+			<td><h3>User Name<h3></td>
+			<td><input type="text" name="uname" required accesskey="u" /></td>
+		</tr>
+		<tr height="45px">
+			<td><h3>Password<h3></td>
+			<td><input type="password" name="passw"  required accesskey="p" value="" /></td>
+		</tr >
+		<tr height="75px" >
+			
+			<td colspan="2" align="center">
+				<table><tr>
+					<td><input type="submit" class="button" value="LOGIN"></td>
+					<td width="50px"></td>			
+					<td><input type="reset" class="button" value="CANCEL"></td>
+				</tr></table>				
+			</td>
+		</tr>		
+	</table>	
+	</div>
+</center>
+</form>
+</body>
+</html>
